@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: roboto, arial, helvetica, sans-serif;
+}
+nav {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+.n1 {
+  display: flex;
+  background-color: white;
+  color: rgb(2, 1, 1);
+  width: 100vw;
+  height: 100px;
+  /* justify-content: space-between; */
+  align-items: center;
+  position: relative;
+}
+.k1 {
+  padding: 20px 5px;
+  font-size: 25px;
+  color: rgb(50, 37, 175);
+  font-weight: bold;
+  margin-left: 15%;
+}
+.k2 {
+  margin-left: 120px;
+}
+.l2 {
+  width: 400px;
+  list-style: none;
+  display: flex;
+  /* text-align: left; */
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+}
+.k3 {
+  margin-left: 14%;
+}
+.l3 {
+  width: 230px;
+  padding: 0 5px;
+  font-size: 18px;
+  list-style: none;
+  display: flex;
+  /* text-align: left; */
+  align-items: center;
+  justify-content: space-between;
+}
+.button {
+  color: white;
+  font-size: 17px;
+  border: none;
+  background-color: rgb(50, 37, 175);
+  padding: 10px 30px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+li {
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.body {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(./image/hình.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+.content {
+  width: 600px;
+  /* text-align: content; */
+  position: relative;
+  /* độ ưu tiên của layout */
+  z-index: 100;
+}
+.content p {
+  color: rgb(107, 100, 100);
+  width: 400px;
+  /* margin: 0 auto; */
+  padding-bottom: 40px;
+  padding-right: 50px;
+  line-height: 1.7;
+  /* line_height điều chỉnh khoảng cách giữa các dòng */
+  letter-spacing: 0.6px;
+  /* letter-spacing điều chỉnh khoảng cách giữa các chữ  */
+}
+.content h1 {
+  padding-right: 300px;
+  color: rgb(50, 37, 175);
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 40px;
+}
+li:hover {
+  color: rgb(44, 29, 179);
+  font-weight: 700;
+}
+.button1 {
+  color: white;
+  font-size: 18px;
+  border: none;
+  background-color: rgb(50, 37, 175);
+  padding: 15px 30px;
+  border-radius: 3px;
+  cursor: pointer;
+}
